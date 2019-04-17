@@ -1,0 +1,42 @@
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+ }
+ 
+
+ main {
+  flex: 1 0 auto;
+ }
+
+/* styling for the title, it's black and 20pt font */
+.home {
+position: absolute;
+left: 23px;
+top: -27px;
+color: black;
+font-size: 20pt;
+}
+
+/* styling for the header bar, it's white */
+.nav-wrapper {
+background-color: white;
+
+}
+
+/* styling for the about and home links in the header, black */
+.abouttext, .hometext {
+color: black;
+}
+
+/* styling for the shadow on the footer to match the headers shadow */
+.shadow {
+-moz-box-shadow: 0 0 2px 2px #999;
+-webkit-box-shadow: 0 0 2px 0px #999;
+}
+
+/* styling for the scrollbar, it hides the scroll bar so the page looks cleaner and more open */
+::-webkit-scrollbar { 
+  display: none; 
+}
+
